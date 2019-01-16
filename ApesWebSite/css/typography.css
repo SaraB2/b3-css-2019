@@ -1,0 +1,18 @@
+h1{
+  color: white;
+  Background-color: rgba(0, 0, 0, 0.6);
+  padding: 5% 10% 5% 10%;
+  font-size: 4vw;
+  font-family: 'Julius Sans One', sans-serif;
+  border-radius: 5px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8vw;
+}
+
+figcaption {
+  font-size: 1vw;
+  text-align: center;
+}
