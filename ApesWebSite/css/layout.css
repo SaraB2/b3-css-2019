@@ -8,7 +8,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('/css/img/01-snub-nosed-monkey.jpg') top center;
+  background: url('../css/img/01-snub-nosed-monkey.jpg') top center;
   background-size: cover;
   min-height: 92vh;
 
@@ -55,7 +55,7 @@ body{
 
 
 .sec5 {
-  background-image: url('/css/img/inspired-2013-05-monkey-main.jpg');
+  background-image: url('../css/img/inspired-2013-05-monkey-main.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
@@ -63,13 +63,13 @@ body{
 
 }
 
-.sec6{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+
+.sec6 img {
+  width: 100%;
 }
-
-
+.sec6_img {
+  object-fit: cover;
+}
 
 @media screen and (max-width: 414px) {
   body {
