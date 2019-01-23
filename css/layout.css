@@ -45,9 +45,6 @@ body{
   justify-content: center;
 }
 
-.sec4 {
-  padding-top: 3%;
-}
 
 .sec4 img {
   width: 100%;
@@ -69,18 +66,40 @@ body{
 }
 .sec6_img {
   object-fit: cover;
+
+}
+
+
+.container{
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 1%;
+  grid-row-gap: 1%;
+}
+
+.container img {
+  padding: 3%;
+}
+
+
+.container img {
+  width: 100%;
 }
 
 @media screen and (max-width: 414px) {
   body {
     background-color: #BEC5AD;
   }
+
 }
 
 @media screen and (min-width: 415px) and (max-width: 1419px){
   body {
     background-color: #AAC46D;
   }
+
 }
 
 @media screen and (min-width: 1420px) and (max-width: 1919px){
