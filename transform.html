@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="css/typography.css" />
-    <link rel="stylesheet" type="text/css" href="css/other.css" />
-    <link rel="stylesheet" type="text/css" href="css/scaffholding.css">
 
-    <title>The website about apes - TRANSFORM</title>
-    <style media="screen">
-       li {
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/layout.css" />
+  <link rel="stylesheet" type="text/css" href="css/typography.css" />
+  <link rel="stylesheet" type="text/css" href="css/other.css" />
+  <link rel="stylesheet" type="text/css" href="css/scaffholding.css">
+
+  <title>The website about apes - TRANSFORM</title>
+  <style media="screen">
+    li {
       display: inline-block;
       justify-content: center;
+
+    }
+
+    li:hover {
+      -webkit-transition: 0,3;
+      -moz-transition: 0,3;
+      transition: 0,3;
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
     }
 
     nav {
@@ -53,61 +65,52 @@
     }
 
     nav a:hover {
-      /* font-size: 1.6vw;
-      margin: 0px 10px; */
-      transform: scale(1.2)
-      -webkit-transform: scale(1.2);
-      transition:0.3s;
+      color: dimgray;
     }
+  </style>
+</head>
 
-    nav a:hover:after{
-      transform: scale(1)
-      -webkit-transform: scale(1);
-      transition:0.3s;
-    }
-    </style>
-  </head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="images.html">RESPONSIVE</a></li>
+        <li><a href="flex.html">FLEX</a></li>
+        <li><a href="grid.html">GRID</a></li>
+        <li><a href="#">TRANSFORM</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <body>
-    <header>
-  		<nav>
-  			<ul>
-          <li><a href="index.html">HOME</a></li>
-  			  <li><a href="images.html">RESPONSIVE</a></li>
-  			  <li><a href="flex.html">FLEX</a></li>
-          <li><a href="grid.html">GRID</a></li>
-          <li><a href="#">TRANSFORM</a></li>
-  			</ul>
-  		</nav>
-  	</header>
+  <section id="sec4">
+    <img src="images/large/Uganda-Gorilla-Tours.jpg" alt="A good strong gorilla">
+  </section>
 
-    <section id="sec4">
-      <img src="images/large/Uganda-Gorilla-Tours.jpg" alt="A good strong gorilla">
-    </section>
+  <section id="sec5">
+    <img class="transform1" src="images/transform_img/2d76f587.png" alt="Une feuille qui bouge">
+  </section>
 
-    <section id="sec5">
-      <img class="transform1" src="images/transform_img/2d76f587.png" alt="Une feuille qui bouge">
-    </section>
+  <footer>
+    <div id="footer-1"><img src="images/milene.jpg" alt="La photo du propriétaire"></div>
+    <div id="footer-2">
+      <ul>
+        <li>Sara Tanta</li>
+        <li>sar.tanta@hotmail.fr</li>
+        <li>ECV Digital Bordeaux</li>
+      </ul>
+    </div>
+    <div id="footer-3">
+      <ul>
+        <li><a href="#sec1">HOME</a></li>
+        <li><a href="images.html">IMAGES</a></li>
+        <li><a href="flex.html">FLEX</a></li>
+        <li><a href="grid.html">GRID</a></li>
+        <li><a href="transform.html">TRANSFORM</a></li>
+      </ul>
+    </div>
+  </footer>
 
-    <footer>
-       <div id="footer-1"><img src="images/milene.jpg" alt="La photo du propriétaire"></div>
-       <div id="footer-2">
-           <ul>
-               <li>Sara Tanta</li>
-               <li>sar.tanta@hotmail.fr</li>
-               <li>ECV Digital Bordeaux</li>
-           </ul>
-       </div>
-       <div id="footer-3">
-           <ul>
-               <li><a href="#sec1">HOME</a></li>
-               <li><a href="images.html">IMAGES</a></li>
-               <li><a href="flex.html">FLEX</a></li>
-               <li><a href="grid.html">GRID</a></li>
-               <li><a href="transform.html">TRANSFORM</a></li>
-           </ul>
-       </div>
-   </footer>
+</body>
 
-  </body>
 </html>
