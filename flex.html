@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="css/typography.css" />
-    <link rel="stylesheet" type="text/css" href="css/other.css" />
-    <link rel="stylesheet" type="text/css" href="css/scaffolding.css">
 
-    <title>The website about apes - FLEX</title>
-    <style media="screen">
-   li {
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/layout.css" />
+  <link rel="stylesheet" type="text/css" href="css/typography.css" />
+  <link rel="stylesheet" type="text/css" href="css/other.css" />
+  <link rel="stylesheet" type="text/css" href="css/scaffolding.css">
+
+  <title>The website about apes - FLEX</title>
+  <style media="screen">
+    li {
       display: inline-block;
       justify-content: center;
+
+    }
+
+    li:hover {
+      -webkit-transition: 0, 3;
+      -moz-transition: 0, 3;
+      transition: 0, 3;
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      color: red;
     }
 
     nav {
@@ -53,73 +66,80 @@
     }
 
     nav a:hover {
-      /* font-size: 1.6vw;
-      margin: 0px 10px; */
-      transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      transition:0.3s;
+      color: dimgray;
     }
+  </style>
+</head>
 
-    </style>
-  </head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="images.html">RESPONSIVE</a></li>
+        <li><a href="#">FLEX</a></li>
+        <li><a href="grid.html">GRID</a></li>
+        <li><a href="transform.html">TRANSFORM</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <body>
-    <header>
-  		<nav>
-  			<ul>
-  			  <li><a href="index.html">HOME</a></li>
-  			  <li><a href="images.html">RESPONSIVE</a></li>
-  			  <li><a href="#">FLEX</a></li>
-          <li><a href="grid.html">GRID</a></li>
-          <li><a href="transform.html">TRANSFORM</a></li>
-  			</ul>
-  		</nav>
-  	</header>
+  <section id="sec1">
+    <h1>THE WEBSITE OF CUTTY APES</h1>
+  </section>
 
-    <section id="sec1">
-      <h1>THE WEBSITE OF CUTTY APES</h1>
-    </section>
-
-    <section id="sec2">
-        <div class='row'>
-          <div class='column'>
-            <div class='text1'>
-              Apes (Hominoidea) are a branch of Old World tailless anthropoid primates native to Africa and Southeast Asia. They are the sister group of the Old World monkeys, together forming the catarrhine clade. They are distinguished from other primates by a wider degree of freedom of motion at the shoulder joint as evolved by the influence of brachiation.
-            </div>
-          </div>
-          <div class='column'>
-            <div class='text2'>
-              Except for gorillas and humans, hominoids are agile climbers of trees. Apes eat a variety of plant and animal foods, with the majority of food being plant foods, which can include fruit, leaves, stalks, roots and seeds, including nuts and grass seeds. Human diets are sometimes substantially different to that of other apes due in part to the development of technology and a wide range of habitation. Humans are by far the most numerous of the ape species, in fact outnumbering all other primates by a factor of several thousand to one.
-            </div>
-          </div>
-          <div class='column'>
-            <div class='text3'>
-              Most non-human hominoids are rare or endangered. The chief threat to most of the endangered species is loss of tropical rainforest habitat, though some populations are further imperiled by hunting for bushmeat. The great apes of Africa are also facing threat from the Ebola virus. Currently considered to be the greatest threat to survival of African apes, Ebola is responsible for the death of at least one third of gorillas and chimpanzees since 1990.[4]
-            </div>
-          </div>
+  <section id="sec2">
+    <div class='row'>
+      <div class='column'>
+        <div class='text1'>
+          Apes (Hominoidea) are a branch of Old World tailless anthropoid primates native to Africa and Southeast Asia.
+          They are the sister group of the Old World monkeys, together forming the catarrhine clade. They are
+          distinguished from other primates by a wider degree of freedom of motion at the shoulder joint as evolved by
+          the influence of brachiation.
         </div>
       </div>
-    </section>
+      <div class='column'>
+        <div class='text2'>
+          Except for gorillas and humans, hominoids are agile climbers of trees. Apes eat a variety of plant and animal
+          foods, with the majority of food being plant foods, which can include fruit, leaves, stalks, roots and seeds,
+          including nuts and grass seeds. Human diets are sometimes substantially different to that of other apes due
+          in part to the development of technology and a wide range of habitation. Humans are by far the most numerous
+          of the ape species, in fact outnumbering all other primates by a factor of several thousand to one.
+        </div>
+      </div>
+      <div class='column'>
+        <div class='text3'>
+          Most non-human hominoids are rare or endangered. The chief threat to most of the endangered species is loss
+          of tropical rainforest habitat, though some populations are further imperiled by hunting for bushmeat. The
+          great apes of Africa are also facing threat from the Ebola virus. Currently considered to be the greatest
+          threat to survival of African apes, Ebola is responsible for the death of at least one third of gorillas and
+          chimpanzees since 1990.[4]
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
-    <footer>
-       <div id="footer-1"><img src="images/milene.jpg" alt=""></div>
-       <div id="footer-2">
-           <ul>
-               <li>Sara Tanta</li>
-               <li>sar.tanta@hotmail.fr</li>
-               <li>ECV Digital Bordeaux</li>
-           </ul>
-       </div>
-       <div id="footer-3">
-           <ul>
-               <li><a href="#sec1">HOME</a></li>
-               <li><a href="images.html">RESPONSIVE</a></li>
-               <li><a href="flex.html">FLEX</a></li>
-               <li><a href="grid.html">GRID</a></li>
-               <li><a href="transform.html">TRANSFORM</a></li>
-           </ul>
-       </div>
-   </footer>
+  <footer>
+    <div id="footer-1"><img src="images/milene.jpg" alt=""></div>
+    <div id="footer-2">
+      <ul>
+        <li>Sara Tanta</li>
+        <li>sar.tanta@hotmail.fr</li>
+        <li>ECV Digital Bordeaux</li>
+      </ul>
+    </div>
+    <div id="footer-3">
+      <ul>
+        <li><a href="#sec1">HOME</a></li>
+        <li><a href="images.html">RESPONSIVE</a></li>
+        <li><a href="flex.html">FLEX</a></li>
+        <li><a href="grid.html">GRID</a></li>
+        <li><a href="transform.html">TRANSFORM</a></li>
+      </ul>
+    </div>
+  </footer>
 
-  </body>
+</body>
+
 </html>

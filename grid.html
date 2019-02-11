@@ -15,6 +15,18 @@
     li {
       display: inline-block;
       justify-content: center;
+
+    }
+
+    li:hover {
+      -webkit-transition: 0, 3;
+      -moz-transition: 0, 3;
+      transition: 0, 3;
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      color: red;
     }
 
     nav {
@@ -53,19 +65,8 @@
       color: #34252F;
     }
 
-    nav a {
-      -webkit-transition: 0,3;
-      -moz-transition: 0,3;
-      transition: 0,3;
-
-
-    }
     nav a:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-      color: red;
+      color: dimgray;
     }
   </style>
 </head>
