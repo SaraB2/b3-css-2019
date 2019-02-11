@@ -1,18 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:300,400,600,700');
+
 h1{
   color: white;
-  Background-color: rgba(0, 0, 0, 0.6);
-  padding: 5% 10% 5% 10%;
-  font-size: 4vw;
-  font-family: 'Julius Sans One', sans-serif;
-  border-radius: 5px;
+  font-size: 2vw;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 3% 10% 3% 10%;
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: bold;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8vw;
+.sec4 h1{
+  color: white;
+  font-size: 2vw;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 3% 10% 3% 10%;
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: bold;
+}
+
+
+body {
+  font-size: 1.5vw;
+  font-family: 'Sarabun', sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-size: 15px;
 }
 
 figcaption {
-  font-size: 1vw;
+  font-size: small;
+  font-family: 'Sarabun', sans-serif;
   text-align: center;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 5px;
 }

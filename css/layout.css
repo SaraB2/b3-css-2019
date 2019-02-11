@@ -1,27 +1,21 @@
 body{
   background-color: white;
-
 }
 
-.sec1{
-
+#sec1{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('../css/img/01-snub-nosed-monkey.jpg') top center;
+  background: url('/css/imgstyle/backgd.jpg') top center;
   background-size: cover;
-  min-height: 92vh;
-
+  min-height: 80vh;
 }
 
-
-.sec2{
+#sec2{
   display: flex;
   flex-direction: column;
-  padding-top: 3%;
-  margin: 5%;
+  margin: 3%;
 }
-
 .row {
   display: flex;
   flex-direction: row;
@@ -34,10 +28,10 @@ body{
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  margin: 2%;
+  padding: 2%;
 }
 
-.sec3{
+#sec3{
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
@@ -45,49 +39,77 @@ body{
   justify-content: center;
 }
 
-
-.sec4 img {
+#sec4 img {
   width: 100%;
 }
 
-
-.sec5 {
-  background-image: url('../css/img/inspired-2013-05-monkey-main.jpg');
+#sec5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/css/imgstyle/gorilla.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
-  min-height: 100vh;
+  min-height: 80vh;
+}
 
+#sec6 img{
+   object-fit: cover;
+   max-height: 200px;
+   width: 100%;
 }
 
 
-.sec6 img {
-  width: 100%;
-  object-position: 50% 50%;
-  max-height: 40vh;
-  object-fit: cover;
 
-}
 .sec6_img {
-    overflow: hidden;
-
+  overflow: hidden;
 }
 
-
-.container{
-  padding: 3%;
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-column-gap: 1%;
-  grid-row-gap: 1%;
+  grid-column-gap: 30px;
+  padding: 5%;
 }
-
-.container img {
-  padding: 3%;
-}
-
 
 .container img {
   width: 100%;
 }
+
+
+
+/*-------------------------------
+    Footer
+--------------------------------*/
+
+footer{
+   background-color: #3C362A;
+   color: #B8C4BB;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 40px 0;
+   align-items: center;
+ }
+
+ #footer-3 a{
+   color: #B8C4BB;
+   text-decoration: none;
+   transition: all .4s;
+ }
+
+
+ #footer-1 img{
+   max-width: 200px;
+ }
+
+ #footer-2 li{
+   padding: 8px 0;
+   display: block;
+ }
+
+ #footer-3 li{
+   padding: 8px 0;
+   display: block;
+ }
